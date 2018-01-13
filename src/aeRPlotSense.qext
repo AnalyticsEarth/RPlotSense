@@ -1,0 +1,15 @@
+{
+  "name":"R Plot for Sense",
+  "description":"Render Plot from R using AAI in a Qlik Sense application",
+  "icon":"bar-chart-horizontal",
+  "type":"visualization",
+  "version":"1.0.0",
+  "author":"Steven Pressland",
+  "homepage":"https://github.com/AnalyticsEarth/RPlotSense",
+  "keywords":"qlik-sense, visualization, AAI, R, Plot",
+  "license":"MIT",
+  "repository":"https://github.com/AnalyticsEarth/RPlotSense",
+  "dependencies":{
+    "qlik-sense":">=3.0.x"
+  }
+}

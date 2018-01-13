@@ -1,0 +1,88 @@
+.qv-object-RImage .rimageframe {
+	object-fit: contain;
+	flex-grow: 1;
+	flex-basis: auto;
+}
+
+
+.qv-object-RImage .rimageborder {
+	border: 1px solid #ddd;
+	margin: 5px;
+	
+}
+
+.qv-object-RImage .rimagetab {
+	overflow: scroll;
+	display: flex;
+	justify-content:space-evenly;
+	flex-wrap: wrap;
+	display: -webkit-box;
+	display: -webkit-flex;
+	display: -moz-box;
+	display: -ms-flexbox;
+	display: flex;
+	-webkit-flex-align: center;
+	-ms-flex-align: center;
+	-webkit-align-items: center;
+	align-items: center;
+}
+
+.qv-object-RImage .rimagetabsingle {
+	object-fit: contain;
+	display: -webkit-box;
+	display: -webkit-flex;
+	display: -moz-box;
+	display: -ms-flexbox;
+	display: flex;
+	-webkit-flex-align: center;
+	-ms-flex-align: center;
+	-webkit-align-items: center;
+	align-items: center;
+}
+
+.qv-object-RImage .rimage-flex-row {
+	flex-direction: row;
+}
+
+.qv-object-RImage .rimage-flex-column {
+	flex-direction: column;
+}
+
+.qv-object-RImage .rimage {
+	max-width:98%;
+	max-height:98%;
+	display: block;
+    margin: 1%;
+}
+
+.qv-object-RImage .rimagesingle {
+	max-width:100%;
+	max-height:100%;
+	margin: auto;
+	object-fit: contain;
+	flex-grow: 1;
+	flex-basis: auto;
+}
+
+
+.qv-object-RImage .rimagetitle {
+	max-width:100%;
+	border-bottom: 1px solid #ddd;
+    word-wrap: normal;
+    white-space: nowrap;
+    overflow: hidden;
+    height: 30px;
+    line-height: 30px;
+    cursor: default;
+    padding-left: 6px;
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    box-sizing: border-box;
+    position: relative;
+}
+
+.qv-object-RImage .selectedtitle {
+	background-color:#52CC52;
+	color: #FFFFFF;
+	border-bottom: 1px solid #BAEBBA;
+}
